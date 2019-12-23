@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Apdex Test by Ariel Fuggini - ariel@southernmedia.net</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="title-wrap">
+      <h1>Apps by Host <small>for use averylongemailaddress@companyname.com</small></h1>
+      <p class="form-wrap">
+        <label for="view-switch"><input id="view-switch" type="checkbox"> show as list</label>
+      </p>
+    </div>
+
+    <div id="content">
+      <p class="loading">Loading...</p>
+    </div>
+
+  </div>
+
+  <script>
+    if (!window.Promise) {
+      var script = document.createElement('script')
+      script.src = 'https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js'
+      document.body.appendChild(script)
+    }
+  </script>
+  <script src="build.js"></script>
+
+</body>
+</html>

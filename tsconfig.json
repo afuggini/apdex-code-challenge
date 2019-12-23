@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
